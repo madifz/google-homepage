@@ -5,6 +5,30 @@
 	align-items: center;
  }
 
+ .navbar {
+  	position: fixed; 
+	right: 0;
+	top: 0;
+ }
+
+ .navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+
+.navbar li {
+	display: inline;
+  }
+
+.navbar a {
+	float: right;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+ }
+
  footer {
 	 position: fixed;
 	 left: 0;
