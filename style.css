@@ -1,0 +1,55 @@
+ .gcomponents {
+ 	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+ }
+
+ footer {
+	 position: fixed;
+	 left: 0;
+	 bottom: 0;
+	 width: 100%;
+	 text-align: center;
+	 background-color: lightgrey;
+ }
+
+ hr {
+	border-top: 1px solid grey;
+ }
+ 
+ .logo {
+	padding-top: 50px;
+ }
+ 
+ .searchbox {
+	border-radius: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+ }
+ 
+ .buttons {
+ 	
+ }
+ 
+ .glang {
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	color: #222;
+
+ }
+ 
+ .location {
+	padding: 15px 30px;
+	border-bottom: 1px solid #dadce0;
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+	text-align: left;
+ }
+ 
+ .footerstuff {
+	justify-content: space-evenly;
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	color: #222;
+ }
